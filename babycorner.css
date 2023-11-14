@@ -1,0 +1,93 @@
+*{
+border: opx;
+margin: opx;
+box-sizing: border-box;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white !important;
+}
+#search{
+    width:300px;   
+}
+#navbar2{
+    background-color: #FFC300 !important;
+    position: sticky;
+    top: 66px;
+    
+}
+
+.nav-link{
+    color: black;
+    font-weight: 500;
+}
+.mainNav{
+    border:1px solid white;
+}
+.mainNav:hover{
+ 
+ border-bottom: 2px solid #01ECFF ;
+}
+.imageItem{
+    height: 480px;
+}
+.imageHold{
+    height: 100%;
+    object-fit: cover;
+}
+section{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product{
+    background-color: #e5e5e5;
+}
+.product .container{
+  width:100%;
+}
+.product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.product img{
+    width: 354px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.product img:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.card{
+    width:354px;
+    height: 300px;
+    background-color: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 16px;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                      -4px -4px 10px white;
+    
+}
+.product .cartbtn:hover{
+    background-color: #e5e5e5 !important;
+    color: blue;
+}
+.product .buybtn:hover{
+    background-color: #e5e5e5 !important;
+    color: black;
+}
